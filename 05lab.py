@@ -9,8 +9,10 @@ grades = list(map(int, grades))
 print(grades)
 print(min(grades))
 print(max(grades))
-
-
+minimum=min(grades)
+maximum=max(grades)
+ave = round(sum(grades)/len(grades))
+print(ave)
 import statistics
 
 ans =statistics.mean(grades)
