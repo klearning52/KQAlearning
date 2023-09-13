@@ -11,7 +11,9 @@ if operator == '1':
     print(lengthA, "**2",+ , lengthB, "**2")
 
 elif operator == '2':
-    print(firstnum, "-", secnum, "=", firstnum - secnum)
+    print(firstnum, "-", 
+          
+          secnum, "=", firstnum - secnum)
 
 elif operator == '3':
     print(firstnum, "x", secnum, "=", firstnum * secnum)
