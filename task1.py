@@ -45,3 +45,18 @@ for num in numbersran:
 print("Number of even numbers :",count_even)
 print("Number of odd numbers :",count_odd)
 
+# Write a Python program that prints each item and its corresponding type from the following list.
+#7
+datalist = [1452, 11.23, 1+2j, True, 'w3resource', (0, -1), [5, 12],
+{"class":'V', "section":'A'}]
+for item in datalist:
+   print (item, " is ", type(item))
+#8
+#Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
+#Note : Use 'continue' statement.
+for num in range(1,6):
+    if (num == 3 or num==6):
+        continue
+    print(num)
+
+
