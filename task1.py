@@ -20,3 +20,28 @@ elif con == "F" or "f":
      print(f'the temperature in celsius is :{cel}')
 else:
     print("Error: incorrect input")
+#4
+#3. Write a Python program to guess a number between 1 and 9.
+#Note : User is prompted to enter a guess. If the user guesses wrong then the prompt appears again until the guess is correct, on successful guess, user will get a "Well guessed!" message, and the program will exit.
+import random
+
+ran_num = random.randint(1,10),
+user_guess = int(input("Try guess a number between 1 and 9:"))
+while (user_guess!=ran_num) or (user_guess2!=ran_num):
+    user_guess2 = int(input("Try again guess a number between 1 and 9:"))
+      
+print("well done correct guess")
+
+#6
+#Write a Python program to count the number of even and odd numbers in a series of numbers
+numbersran = range(1,11) 
+count_odd = 0
+count_even = 0
+for num in numbersran:
+        if not num % 2:
+    	     count_even+=1
+        else:
+    	     count_odd+=1
+print("Number of even numbers :",count_even)
+print("Number of odd numbers :",count_odd)
+
